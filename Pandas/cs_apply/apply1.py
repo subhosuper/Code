@@ -12,3 +12,4 @@ def fun(num):
 new = file.apply(fun)
 print(new[0], new[1])
 print(new.head())
+print(type(new))

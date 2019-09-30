@@ -5,4 +5,4 @@ data = {'Name':['Jai', 'Princi', 'Gaurav', 'Anuj'],
         'Qualification':['Msc', 'MA', 'MCA', 'Phd']}
 df = pd.DataFrame(data)
 
-print(df[['Name']])
+print(df[['Name','Address']])

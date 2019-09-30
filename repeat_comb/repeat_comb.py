@@ -32,4 +32,4 @@ class repeat_comb:
         print(sum_list)
 
 obj = repeat_comb()
-obj.solve(3)
+obj.solve(4)
