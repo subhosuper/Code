@@ -12,5 +12,6 @@ public class array_to_list{
         System.out.println(al);
         List<String> list = Arrays.asList(arrayString);     //convert string array to String List by directly storing the Array as List as the initialised value
         System.out.println(list);
+        System.out.println(list+"\n"+al.getClass().getName());
     }
 }

@@ -31,5 +31,6 @@ class checkbox_radio{
             default:
                 System.out.println("INVALID");
             }
+            sc.close();
         }
     }

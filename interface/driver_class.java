@@ -20,6 +20,10 @@ class Wego implements Vehicle{
     public void mileage(){
         System.out.println("Wego gives a mileage of 70 km/l");
     }
+
+    public void speed(){
+        System.out.println("Speeding up...");
+    }
 }
 
 class driver_class{
@@ -31,5 +35,6 @@ class driver_class{
         Wego bike = new Wego();
         bike.accelerates();
         bike.mileage();
+        bike.speed();
     }
 }
