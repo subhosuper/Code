@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>My Calculator</title>
+        <script type="text/javascript">
+            function call(op_id){
+                var v1 = parseFloat(document.getElementById("op1").value)
+                var v2 = parseFloat(document.getElementById("op2").value)
+                if(isNaN(v1) || isNaN(v2)){
+                    alert("Enter valid numbers")
+                }
+                else if(op_id == 'add'){
+                    document.getElementById("total").value = v1 + v2
+                }
+                else if(op_id == "sub"){
+                    document.getElementById("total").value = v1 - v2
+                }
+                else if(op_id == "mul"){
+                    document.getElementById("total").value = v1 * v2
+                }
+                else if(op_id == "div"){
+                    document.getElementById("total").value = v1 / v2
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+        <h1>A SIMPLE CALCULATOR</h1>
+        <table style="background-color:yellow" align="center">
+            <tr>
+                <td>
+                    <form method="GET" action="">
+                        <div width = 50% align="center">
+                            <lable>OP1<input type="text" id="op1"/></lable>
+                            <label>OP2<input type="text" id="op2"/></label>
+                            <label>Total<input type="text" id="total"/></label>
+                        </div>
+                        <br>
+                        <div width=50% align="center">
+                            <input type="button" value="+" id="add" onclick="call(this.id)"/>
+                            <input type="button" value="-" id="sub" onclick="call(this.id)"/>
+                            <input type="button" value="*" id="mul" onclick="call(this.id)"/>
+                            <input type="button" value="/" id="div" onclick="call(this.id)"/>
+                            <input type="reset"  value="clear"/>
+                        </div>
+                    </form>
+                </td> 
+            </tr>
+        </table>
+        </center>
+    </body>
+</html>

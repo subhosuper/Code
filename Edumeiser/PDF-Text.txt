@@ -1,0 +1,2850 @@
+  
+ 
+A Project Report 
+on
+ 
+
+
+ 
+ 
+ 
+Submitted in partial 
+fulfillment of the requirements for the award of the degree
+ 
+ 
+BACHELOR OF TECHNOLOGY
+ 
+in
+ 
+ 
+ELECTRONICS AND COMMUNICATION ENGINEERING
+ 
+by
+ 
+SUNNY DEB   [ENG16EC0084]
+ 
+TENZIN GYALPO   [ENG16EC0090]
+ 
+VISHAL B   [ENG16EC0094]
+ 
+Under the guidance of
+ 
+       
+Dr. Chandra Shaker B                                            
+ 
+       
+Assistant 
+Professor
+ 
+ 
+       
+Department of ECE 
+ 
+       
+SoE, DSU
+ 
+ 
+ 
+ 
+ 
+ 
+Department of Electronics and Communication Engineering 
+Dayananda Sagar University, Bengaluru 560068
+ 
+ 
+Academic
+ 
+Batch:
+ 
+2016
+-
+2020
+ 
+Year:
+ 
+2019
+-
+2020
+ 
+School of Engineering
+ 
+Kudlu Gate, Bengaluru
+-
+560068
+ 
+                 
+Prof
+. Abhinav Karan
+  
+ 
+                 
+Assistant Professor
+ 
+                 
+Department of ECE
+ 
+                 
+SoE, DSU
+ 
+  
+Department of Electronics and Communication Engineering
+ 
+ 
+CERTIFICATE
+ 
+This is to certify that the 
+Project 
+entitled 
+
+ 
+has
+ 
+been
+ 
+successfully
+ 
+carried out by
+ 
+SUNNY DEB (ENG16EC0084)
+, TENZIN GYALPO 
+(
+ENG16EC0090) 
+and 
+VISHAL B  (ENG16EC0094) 
+in
+ 
+partial fulfillment
+ 
+of
+ 
+the
+ 
+requirement
+ 
+for
+ 
+the
+ 
+award
+ 
+of
+ 
+the
+ 
+degree
+ 
+BACHELOR
+ 
+OF
+ 
+TECHNOLOGY 
+in
+ 
+ELECTRONICS
+ 
+&
+ 
+COMMUNICATION
+ 
+ENGINEERING
+ 
+by
+ 
+DAYANANDA
+ 
+SAGAR
+ 
+UNIVERSITY  
+during 
+the academic year 2019
+-
+2020.
+ 
+ 
+ 
+ 
+ 
+                                                                
+                               
+ 
+ 
+Signature of
+ 
+the
+ 
+Guide
+         
+Signature of the 
+Co
+-
+Guide
+         
+Signature of the 
+Coordinator
+ 
+  
+ 
+  
+Dr. Chandra Shaker B                                                              
+   
+ 
+ 
+Asst. Prof, Dept. of ECE 
+ 
+ 
+SoE
+-
+DSU, Bengaluru
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of
+ 
+the Chairman
+                                                           
+Signature of the
+ 
+Dean
+ 
+ 
+ 
+ 
+ 
+  
+External Examiner
+ 
+ 
+ 
+   
+External Examiner
+ 
+ 
+ 
+1)
+ 
+ 
+ 
+ 
+ 
+Name
+ 
+Signature
+ 
+ 
+ 
+2)
+ 
+ 
+ 
+ 
+ 
+Name
+ 
+Signature
+ 
+       
+ 
+School of 
+Engineering
+ 
+Kudlu Gate, Bengaluru
+-
+560068
+ 
+   
+Prof. Abhinav Karan
+ 
+Asst. Prof, Dept. of ECE
+ 
+   
+SoE
+-
+DSU, Bengaluru
+ 
+  
+Dr. Vaibhav A Meshram
+ 
+           
+Dept. of ECE
+ 
+     
+SoE
+-
+DSU, Bengaluru
+ 
+      
+Dr. A Srinivas
+ 
+SoE
+-
+DSU, Bengaluru
+ 
+Dr. Payal Verma
+ 
+Asst. Prof, Dept. of ECE
+ 
+   
+SoE
+-
+DSU, Bengaluru
+ 
+ 
+  
+ 
+
+ 
+ 
+ 
+ 
+We, hereby declare that, the in
+-
+house project presented in this report titled 
+
+IoT Based 
+
+partial fulfillment of the requirements for the award of the 
+degree of Bachelor of Technology in Electronics and Communication have to submit in 
+School of Engineering, Dayananda Sagar University, Bengaluru, is an authentic record of 
+my own work that has be
+en carried out during 7
+th
+ 
+semester (period from August 2019 to 
+
+
+SoE, DSU Bengaluru. 
+The matter embodied in this Project Report has been submitted by us for award of degree of 
+Bachelor of Technolog
+y.
+ 
+ 
+ 
+ 
+ 
+Date :
+ 
+ 
+Place : Bengaluru
+ 
+ 
+Sunny Deb
+ 
+ 
+Tenzin Gyalpo
+ 
+Vishal B
+  
+ACKNOWLEDGMENT
+ 
+ 
+ 
+The
+ 
+completion
+ 
+of
+ 
+a
+ 
+project
+ 
+brings
+ 
+with
+ 
+a
+ 
+sense
+ 
+of
+ 
+satisfaction,
+ 
+but
+ 
+it
+ 
+is
+ 
+never
+ 
+complete
+ 
+without 
+thanking the 
+people responsible for its successful
+ 
+completion.
+ 
+We 
+would 
+like 
+to extend our deepest gratitude to our Chancellor, Dr. D Hemachandra Sagar, 
+Dayananda Sagar University, Bengaluru for providing us an opportunity to 
+bring 
+out the 
+best 
+in
+ 
+us.
+ 
+We
+ 
+would
+ 
+also
+ 
+like
+ 
+to
+ 
+extend
+ 
+our
+ 
+deepest
+ 
+gratitude
+ 
+to
+ 
+our
+ 
+Chancellor,
+ 
+Dr.
+ 
+D
+ 
+Premchandra 
+Sagar,
+ 
+Pro
+ 
+Chancellor,
+ 
+Dayananda
+ 
+Sagar
+ 
+University,
+ 
+Bengaluru
+ 
+for
+ 
+providing
+ 
+us
+ 
+an
+ 
+opportunity 
+to pursue our career 
+at 
+Dayananda Sagar
+ 
+University.
+ 
+We express our heartfelt sincere gratitude to honorable Vice Chancellor, Dr. A N N Murthy, 
+Dayananda Sagar University, Bengaluru for his valuable suggestions and support. We take 
+immense pleasure in thanking Dean, Dr. A Srinivas, Dayananda Sagar University
+, Bengaluru 
+for all his support.
+ 
+We
+ 
+take
+ 
+immense
+ 
+pleasure
+ 
+in
+ 
+thanking
+ 
+Dr.
+ 
+Vaibhav A
+ 
+Meshram Head
+ 
+of
+  
+Department
+ 
+Electronics and
+ 
+Communication
+ 
+Engineering,
+ 
+Dayananda
+ 
+Sagar
+ 
+University,
+ 
+Bengaluru for
+ 
+his
+ 
+enthusiastic support.
+ 
+We would like to extend my deepes
+t gratitude of our guide Dr. Chandra Shaker B, 
+Dayananda Sagar University, Bengaluru without whom this project w
+ould have been 
+incomplete. His
+ 
+expertise 
+and
+ 
+logical way of thinking has
+ 
+been a great value to us. 
+Also, h
+is
+ 
+understanding, encouraging and personal guidance have provided a good basis for this project 
+report.
+ 
+We
+ 
+would
+ 
+like
+ 
+to
+ 
+thank
+ 
+our co
+-
+guide
+ 
+Prof. Abhinav Karan,
+ 
+Assistant
+ 
+Professor,
+ 
+Dayananda 
+Sagar University, Bengaluru for his insightful
+ 
+suggestions.
+ 
+We 
+extend our thanks to the entire faculty of Electronics and Communication Department for 
+their sincere support throughout the project. Their patience and Co
+-
+operation has helped us to 
+complete this project effectively.
+ 
+  
+ABSTRACT
+ 
+ 
+ 
+ 
+In this current generation, one has to deal with numerous hurdles to get a vacant 
+parking space for their vehicles. As it is the number of vehicles has kept on increasing at a 
+swift pace
+ 
+and has contributed to the effects of traffic congestion all the more. To deal with 
+such issues one such concept that has come up and received a lot of admiration is the Smart 
+Parking System. 
+ 
+ 
+             
+This system proposes to reduce the number of veh
+icles lining up for
+ 
+vacant
+ 
+space in a 
+parking lot. So, whenever a person plans to visit a commercial structure he/she can check the 
+status of the parking lot on the respective website portal of that commercial structure from 
+their mobile phones, laptops and other such accessories e
+ven before going to that place. 
+Otherwise, they can also check the parking status on the reception desk of that organization 
+after going to that place if they are not able to access the website. By doing this, the 
+unnecessary overflowing of vehicles into t
+he parking lot in search of 
+a 
+vacant space can be 
+avoided. These results are displayed on the website of such commercial properties. Even after 
+all this if the person by any means happens to go into the parking area then a servo motor has 
+been placed which
+ 
+allows the vehicle to enter the parking area if there is a vacant space and if 
+it is full then it does not. Also, suitable number of IR Sensors and LEDs has been correctly 
+positioned in the parking spaces which enables the driver to know which of the slot
+s are empty 
+and occupied at the same time.
+ 
+ 
+The website is designed using the cloud computerization technique which involves 
+NodeMCU (ESP8266) as well as Adafruit IO as the main components behind the designing 
+of the entire website. Once the website is cre
+ated it is then responsible for giving the correct 
+status of the parking space thus rendering a smooth experience to the user and letting them 
+know about the genuine information without them having go to through the rigorous process 
+of coming to that place
+ 
+and entering the parking lot and then getting to know about the latest 
+status of the parking area.
+ 
+Keywords
+: Smart Parking, Internet of Things (IoT), Arduino Uno, NodeMCU (ESP8266), 
+Adafruit IO, 
+Website.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CONTENTS
+ 
+     
+Annexures
+ 
+ 
+I.
+ 
+Certificate
+ 
+II.
+ 
+Declaration
+ 
+III.
+ 
+Acknowledgement
+ 
+IV.
+ 
+Abstract
+ 
+V.
+ 
+Contents
+ 
+VI.
+ 
+List of Figures
+ 
+ 
+ 
+ 
+Sl. No.
+ 
+     
+   
+Index
+ 
+Page No.
+ 
+ 
+1
+ 
+Introduction
+ 
+1
+-
+3
+ 
+ 
+1.1. Overview
+ 
+1
+ 
+ 
+    
+1.2. Motivation
+ 
+2
+ 
+ 
+    
+1.3. Objective
+ 
+3
+ 
+ 
+ 
+ 
+2
+ 
+Literature Survey
+ 
+    
+2.1.
+ 
+Parking Guidance  Using IoT        
+ 
+        
+Technology
+ 
+ 
+      
+      
+2.1.1 Smart Parking Using IoT Technology
+ 
+     
+      
+ 
+2.1.2 Detecting  Efficient Parking Space    
+ 
+               
+     
+ 
+Using Smart  Parking
+ 
+     
+       
+2.1.3 Aut
+omatic Smart Parking System 
+                
+ 
+                     
+Using Internet of Things (IoT)
+ 
+ 
+    
+2.2 Parking Guidance System Using Wireless 
+    
+ 
+      
+Sensor Network and RFID
+ 
+       
+2.2.1
+ 
+Smart Parking Service Based on 
+  
+ 
+                
+Wireless 
+Sensor    Network
+ 
+       
+2.2.2 
+Wirel
+ess Sensor Network and RFID    
+ 
+                 
+for 
+Smart Parking System
+ 
+        
+ 
+    
+2.3
+ 
+Parking Guidance Using Image
+ 
+  
+ 
+          
+Processing
+ 
+       
+2.3.1
+ 
+An Intelligent Parking Guidance
+ 
+and 
+   
+ 
+                
+Information System By Using Image 
+                          
+ 
+                
+Processing Technique
+ 
+       
+2.3
+.
+2 
+Intelligent Parking Management 
+  
+ 
+                
+System 
+Based on Image Processing
+    
+ 
+         
+ 
+ 
+                                                                                               
+ 
+       
+4
+-
+6
+ 
+         
+4
+ 
+ 
+              
+4
+ 
+              
+4
+ 
+ 
+ 
+     
+   
+ 
+      
+5    
+ 
+             
+ 
+              
+5
+ 
+                
+ 
+              
+5
+ 
+ 
+              
+5
+ 
+ 
+ 
+              
+6
+ 
+ 
+      
+6
+ 
+ 
+                      
+ 
+ 
+              
+6
+ 
+ 
+       
+6
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+                                      
+ 
+                                              
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         
+ 
+        
+  
+ 
+3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5
+ 
+    
+Methodology
+ 
+                     
+ 
+    
+3.1.
+Block Diagram
+ 
+           
+3.1.1
+ 
+Arduino Uno
+ 
+           
+3.1.2
+ 
+Servo Motor
+ 
+                     
+3.1.2.1
+ 
+What is Servo Motor?
+ 
+                     
+3.1.2.2
+ 
+Working Principle of      
+   
+ 
+                                  
+Servo Motor
+ 
+           
+3.1.3
+ 
+IR Sensor
+ 
+                     
+3.1.3.1
+ 
+Working Principle of IR 
+ 
+ 
+                                 
+Sensor
+ 
+ 
+          
+3.1.4 NodeMCU
+ 
+           
+3.1.5 LED
+ 
+           
+3.1.6
+ 
+Power Supply
+ 
+    
+3.2. Working
+ 
+           
+3.2
+.
+1
+ 
+Algorithm
+ 
+    
+3.3  Results
+ 
+           
+ 
+  
+ 
+Conclusion & Future Scope
+   
+ 
+    
+4.1. Summary 
+ 
+    
+4.2. Applicat
+ions     
+ 
+    
+4.3. Limitations
+                                                                                                    
+ 
+    
+4.4. Future Scope  
+ 
+ 
+   
+ 
+References
+ 
+ 
+ 
+ 
+  
+ 
+                                                                       
+  
+  
+ 
+7
+-
+17
+ 
+7
+ 
+7
+ 
+8
+ 
+8
+ 
+8
+ 
+ 
+ 
+       
+10
+ 
+       
+11
+ 
+       
+ 
+       
+12
+ 
+       
+13
+ 
+       
+13
+ 
+       
+14
+ 
+       
+16
+ 
+        
+ 
+       
+18
+-
+20
+ 
+ 
+      
+18
+ 
+       
+18
+ 
+       
+19
+ 
+       
+19
+ 
+         
+ 
+ 
+            
+21
+ 
+ 
+ 
+       
+ 
+                
+ 
+ 
+ 
+         
+ 
+ 
+ 
+    
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+        
+  
+        
+ 
+                                                                                                  
+ 
+    
+ 
+ 
+    
+ 
+ 
+         
+ 
+           
+ 
+           
+ 
+                   
+ 
+ 
+ 
+ 
+             
+ 
+ 
+                                                        
+ 
+ 
+ 
+             
+ 
+    
+ 
+                     
+ 
+    
+ 
+ 
+ 
+ 
+           
+ 
+ 
+             
+ 
+  
+ 
+                                                   
+LIST OF FIGURES
+ 
+ 
+ 
+ 
+ 
+ 
+Sl. No.
+ 
+              
+ 
+  
+Name of Figures
+ 
+ 
+Page No.
+ 
+    
+ 
+ 
+   
+ 
+ 
+ 
+1
+ 
+Figure 1 : Block Diagram
+ 
+ 
+7
+ 
+2
+ 
+Figure 2 : Arduino Uno Board
+ 
+ 
+8
+ 
+3
+ 
+Figure 3: Servo Motor
+ 
+       
+9
+ 
+4
+ 
+Figure 4: Pulse 
+Width Required for Rotation
+ 
+      
+1
+0
+ 
+5
+ 
+Figure 5: IR Sensor
+ 
+      
+11
+ 
+6
+ 
+Figure 6: Transmission & Reception Process of an IR 
+Sensor
+ 
+      
+1
+1
+ 
+7
+ 
+Figure 7 : NodeMCU Pin Configuration
+ 
+      
+1
+2
+ 
+8
+ 
+9
+ 
+10
+ 
+11
+ 
+12
+ 
+13
+ 
+Figure 8 : LED
+ 
+   
+Figure 9
+: Algorith
+m
+ 
+Figure 10
+: 
+Empty parking space m
+odel
+ 
+  
+ 
+F
+igure11
+: Parking status in Web P
+age
+ 
+Figure 12
+: Parked vehicle in model
+ 
+   
+Figure 13
+: Parked vehicle status in Web P
+age
+                    
+ 
+ 
+ 
+ 
+      
+13
+ 
+      
+15
+ 
+      
+16
+ 
+      
+ 
+16
+ 
+       
+17
+ 
+       
+17
+ 
+ 
+ 
+      
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+1
+ 
+ 
+CHAPTER 1
+ 
+ 
+ 
+INTRODUCTION
+ 
+    
+1.1
+   
+OVERVIEW
+ 
+     
+
+become an issue of grave concern for the common masses. Research from scientists 
+have demonstrated various instances of evidences which confirms that an individual 
+takes
+ 
+generally around 8 minutes to park a vehicle because of the time that one has 
+to spend in searching for a parking lot. It has escalated the problems of traffic 
+congestion manifolds on a global basis. The time consumed in order to find a 
+parking area usual
+ly contributes to the major portion of the traffic congestion. Over a 
+
+several steps have been taken to keep a check on the issue but all of it has not been 
+sufficient enough
+ 
+to bring the desired results. The industry giants saw it as an 
+opportunity to bring a massive augmentation in the revenues related to parking spots 
+and thereby coming up with cost effective and efficient technological solutions to 
+reduce the traffic conge
+stion. This has paved the way for development of smart and 
+innovative parking systems which can provide hassle free and satisfactory 
+experiences to the people. To sustain the current human development, such 
+kinds of 
+techniques for car parking occupancy det
+ection are
+ 
+of great importance for an 
+effective management of vehicle parking lots. To solve this, a solution has been 
+established that can handle the navigation to defined parking lots. The current 
+parking lots are not equipped enough with such automated 
+systems and brings in a 
+lot of problems for the drivers to find the vacant parking spots. So 
+in this context, 
+internet of things (
+IoT
+)
+ 
+uses cloud computerization technique to connect physical 
+parking space for organizational structures and enterprises, where cloud
+-
+based smart 
+management services have been applied to deal with the issue. This connectivity shift 
+among the parking systems o
+f varied buildings and the drivers of the vehicles has 
+brought about a drastic socio
+-
+economical change.
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+2
+ 
+ 
+The existing parking systems take away a lot of time and effort of the drivers to get 
+a vacant spot in a parking lot. To address this matter, a suitable
+ 
+alternative would be to 
+design a website using an IoT based cloud database which the drivers can have access 
+to and whenever he/she visits any organization they can check on the website portal of 
+the respective organizations on their phones or as well as 
+check on the computer 
+systems on the reception desk of the concerned organization regarding the number of 
+vacant spots in the parking lot. So we propose to come up with a solution that uses an 
+amalgamation of sensors, light emitting diodes (LEDs), controll
+er boards, 
+communication equipment, and monitoring & management software to assist the driver 
+in locating the vacant spot. The most essential objective of smart parking system is to 
+cut down time consumption to locate the parking areas, which in turn would
+ 
+reduce the 
+fuel consumption. Through the website portal the user can get a track of the existing 
+status of a parking lot.
+ 
+Especially when it comes to developing countries like India, the nation has to 
+encounter a lot of problems for ensuring a large free 
+parking space. Therefore, the 
+above mentioned concept of smart parking system would be an optimal solution. A 
+Mobile application that can be used to book a parking slot would be an advanced 
+version of the given concept.
+ 
+ 
+ 
+  
+ 
+1.2
+. MOTIVATION
+ 
+ 
+    
+The heavil
+y crowded streets of Bengaluru has become physically as well as mentally 
+a draining experience altogether for the common masses on a frequent basis. Such 
+experiences on a personal level and also looking at the scenarios in various cities across 
+the length 
+and breadth of the country a true sense of motivation has triggered in us to 
+come up with an IoT and cloud computerized answer to this complication. Hence, with 
+
+system
+ 
+that will be successful in diminishing the traffic congestion and also bring down 
+the unnecessary consumption of fuel which is contributing drastically to the pollution 
+levels of the country such that it has become a life threatening situation for th
+e peo
+ple.
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+3
+ 
+ 
+    
+1.3
+.
+ 
+OBJECTIVE
+ 
+The following objectives to be achieved are as:
+ 
+
+ 
+The focus is to reduce the number of vehicles that get lined up in search of vacant 
+space and create a lot of congestion in a parking lot.
+ 
+
+ 
+To limit the fuss in and around a parking lot 
+which arouses a lot of frustration
+ 
+among the drivers of the vehicles and to give them a hassle free experience?
+ 
+
+ 
+To
+ 
+minimize the unnecessary wastage of fuel
+ 
+which occurs during traffic 
+congestion.
+ 
+ 
+    
+ 
+    
+ 
+.
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+4
+ 
+ 
+CHAPTER 2
+ 
+LITERATURE SURVEY
+ 
+ 
+2
+. 
+1 
+PARKING
+ 
+GUIDANCE
+ 
+USING IOT TECHNOLOGY 
+ 
+       
+ 
+2.
+1.1 
+IoT 
+BASED SMART PARKING SYSTEM
+ 
+[1]
+ 
+The
+ 
+
+IoT based smart parking system
+
+ 
+is 
+an IoT based smart 
+parking system that can provide more than just information about vacant space but also 
+helps driver to locate an available   parking slot in order to reduce traffic problem in the 
+parking area. The system will detect the vehicle plate nu
+mber and use it inform the driver 
+where his/her car is parked and also for the purpose of security monitoring. They have 
+designed this smart   parking using hardware and software based on IoT concept, and 
+mobile application, the driver can easily check the
+ 
+parking information and use mobile 
+payment to pay the parking fee.  
+ 
+In this paper, user gets information about parking slots and payment are done 
+through phone which makes flexible when it comes 
+to 
+payment. However, handling a 
+database of user looks unwa
+nted since they are offering information about parking slots. 
+ 
+ 
+2.1
+.
+2
+ 
+DETECTING 
+EFFICIENT PARKING SPACE USING SMART 
+PARKING [2]
+ 
+The goal of this research
+ 
+by 
+is 
+to 
+focus on the developing the parking system, that 
+improves the performance of Smart Parking System by minimizing the number of users to 
+fail in finding the parking place and reducing cost to get car parked in the parking place. 
+Proposed System Architecture 
+consists
+ 
+of Centralized Car Parking System, which has been 
+successfully implemented & tested on Microsoft Azure Cloud. With the help of proposed 
+system, average waiting time for identifying the parking place has been reduced.
+ 
+From this 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+5
+ 
+ 
+paper, Algorithm whi
+ch they have used is very effective but not easily understandable and 
+addressed the reduction of time while parking.  
+ 
+ 
+2.1.3 AUTOMATIC SMART PARKING SYSTEM USING INTERNET OF 
+   
+THINGS (IoT) [7]
+ 
+ 
+The author proposed a simple, economic and effective 
+solution of reducing the time 
+to find parking slot and provide the status of vacant parking slot via web from anywhere. 
+Absence of vacant space using mobile application as app. less human interaction with 
+increase in flexibility and security
+ 
+ 
+2.2 PARKING 
+G
+UIDANCE 
+SYSTEM USING WIRELESS SENSOR 
+NETWORK AND RFID
+ 
+ 
+2.2
+.
+1
+ 
+SMART PARKING SERVICE BASED ON WIRELESS SENSOR  
+ 
+       
+NETWORK [3]      
+ 
+ 
+ 
+ 
+This paper proposed by Author is a smart parking services using Wireless Sensor 
+Network, Embedded Web Server, Central 
+Web Server and Mobile phone application as 
+Android and iPhone in which they have designed and implement a prototype that allows 
+users to effectively vacant parking slot. Through mobile user can find the vacant slot. No 
+Multilevel parking within    infrastr
+
+Information of parking is saved in database.
+ 
+ 
+                   
+   
+ 
+2.2
+.
+2
+ 
+WIRELESS SENSOR NETWORK AND RFID FOR SMART 
+   
+  
+PARKING
+ 
+SYSTEM [4]
+ 
+ 
+This paper introduces a PGIS based Wireless Sensor Network which they have 
+designed a sensor network which carries all data of parking slot to management from 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+6
+ 
+ 
+sensor node via Zig Bee. RFID is used for secure, fast and easy checking of out and in 
+users in s
+hort period. For securing data while transferring Zig Bee is used. However the 
+
+space using cell phone.
+ 
+ 
+2.3 PARKING GUIDANCE USING IMAGE PROCESSING
+ 
+2.3.1 AN INTELLIGENT
+ 
+PARKING GU
+IDANCE AND  INFORMATION 
+ 
+S
+YSTEM BY USING IMAGE PROCESSING T
+ECNIQUE [5]
+ 
+ 
+This project has been developed by integrating features of all software and hardware 
+component used. They have used highly growing technology like ARM9 microcontroller, 
+GSM module and 
+webcam. The
+ 
+device is developed is such a way that makes easier and 
+flex
+ible to their user fetching the before said status of the vacant spaces from the web and 
+can book vacant space. 
+It is h
+ighly expensive implementation. For every vacant slot the 
+users has to inquire.
+ 
+ 
+2.3
+.
+2
+ 
+INTELLIGENT PARKING MANGEMENT SYSTEM BASED ON  
+ 
+  
+    
+   
+ 
+IMAGE PROCESSING [6]
+ 
+ 
+ 
+The Author proposed an image based method of detecting the vacant space for 
+vehicle. They have used method of analyzing an aerial view of vehicle slot which finds the 
+vehicle slot, image with vehicle and simple analysis they 
+are converting image into black 
+and white. Usage of Camera is cheap and very effective and detection of different vehicle
+ 
+parking slot and presence of cars at a time. The visibility of vehicle parking slot can be 
+affect by bad weather. To see all vehicle p
+arking the camera 
+has to be in a fixed position. 
+ 
+ 
+ 
+ 
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+7
+ 
+ 
+                                  
+CHAPTER 3
+ 
+                                            
+METHODOLOGY
+ 
+ 
+      
+3.1. BLOCK DIAGRAM
+ 
+The
+ 
+Block diagram 
+shown in Fig. 1 below 
+defines 
+a 
+blueprint of 
+the System model. 
+It
+ 
+consist
+s
+ 
+of com
+ponents required to do the connections for building a Smart Parking 
+System model
+.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                
+ 
+Figure 1
+: Block 
+Diagram
+ 
+of 
+an 
+IoT Based Parking Guidance System
+ 
+ 
+3.1.1
+ 
+ARDUINO UNO
+ 
+ 
+         
+It is an open source micro
+-
+controller board which works on the basis of a 
+microchip ATmega328P micro
+-
+controller developed by Arduino.cc as shown below in Fig. 
+2. It follows the c
+ustomized Harvard archite
+cture with 8 bit Reduced Instruction Set 
+C
+omputing (RISC)
+ 
+processor core.
+ 
+Arduino
+ 
+UNO
+ 
+IR
+ 
+Sensor
+ 
+LED
+ 
+Power
+ 
+supply
+ 
+NodeMCU
+ 
+ESP8266
+ 
+Servo
+ 
+Motor
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+8
+ 
+ 
+ 
+Figure 
+2:
+ 
+Arduino UNO Board
+ 
+The Arduino Uno has a number of options for communicating with a computer, or 
+other 
+microcontrollers
+.
+ 
+It
+ 
+can be programmed using Arduino
+ 
+IDE
+ 
+(Integrated Development 
+Environment)
+.
+It is the set of instructions given to the
+ 
+hardware of after interfacing of the 
+Sensors and other components based on the output that is required
+. 
+ 
+ 
+ 
+3.1.2 SERVO MOTOR
+ 
+ 
+3.1.2.1
+ 
+WHAT IS SERVO MOTOR?
+ 
+A servo motor is an electrical device which is either used to rotate or push an
+ 
+o
+bject 
+and works with great precision.
+ 
+A servo motor is used when one has to
+ 
+r
+otate an object by a 
+certain specific angle 
+or distance. It is made up of 
+si
+mple
+ 
+m
+otor which uses servo 
+mechanism to operate.
+ 
+ 
+ 
+3.1.2.2
+ 
+WORKING PRINCIPLE OF SERVO MOTOR
+ 
+A servo motor 
+shown in Fig. 3 
+consists of a DC or AC motor, a gear assembly, a 
+potentiometer and a controlling unit. First of all, a gear assembly is used to increase the 
+torque of the motor and to reduce the RPM. The position at the beginning of servo motor 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+9
+ 
+ 
+shaft, the position of pote
+ntiometer knob is such that there is no electrical signal generated 
+at the output port of the potentiometer.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                               
+ 
+Figure 3: Servo Motor
+ 
+Now at another input terminal of the error detecting amplifier, and 
+electrical signal 
+is given. Now, one signal coming from the potentiometer and another coming from the 
+other source is compared and the difference between these two signals will be processed in 
+feedback mechanism and the output is generated as an error sign
+al. This error signal is the 
+actuating signal for the motor and the motor starts rotating. Now, as the motor rotates, the 
+potentiometer will generate a signal since the motor shaft is connected with the 
+potentiometer.
+ 
+So, the output feedback signal of the 
+potentiometer changes as its angular position
+ 
+c
+hanges. At a certain point of time, the position of the potentiometer reaches a point 
+s
+uch 
+that the output of the potentiometer is the same as the external signal
+.
+ 
+At this point, as there is no difference 
+between the external applied signal and the 
+signal generated at the potentiometer, there will be no output signal from the amplifier to 
+the motor input and thus the motor stops rotating.
+ 
+Generally, for a servo motor, the angle of 
+rotation ranges from 0 to 
+180
+º
+.
+ 
+The Pulse Width which is required for different rotations of 
+the servo motor is shown in Fig. 4.
+ 
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+10
+ 
+ 
+ 
+                            
+  
+Figure 4: Pulse Width Required for Rotation
+ 
+ 
+But, depending on the manufacturing, it
+ 
+can sometimes go up to 210º
+. The 
+application of an electrical pulse of a proper width to control pin can bring about the 
+controlled degree of rotation.
+ 
+Pulse of 1 ms (millisecond) width can rotate servo to 0
+º
+, 
+1.5ms can rotate to
+ 
+90º
+ 
+(neutral position) and 2 ms pulse can rotate it to 180
+º
+.
+ 
+ 
+ 
+3.1.3 
+I
+NFRA
+-
+RED
+ 
+(
+IR
+)
+ 
+SENSOR
+ 
+IR sensor is an electronic device, which emits in order to sense some object exist in 
+surrounding.
+ 
+IR Sensor 
+in Fig. 5 
+is generally utilized by using a particular light sensor to 
+determine and to obtain the light of a particular light wavelength in the Infra
+-
+Red (IR) 
+spectrum. 
+ 
+ 
+ 
+ 
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+11
+ 
+ 
+ 
+ 
+ 
+ 
+                                                     
+Fig
+ure 5
+: IR Sensor
+ 
+ 
+Therefore by using an LED which generates light at 
+the same wavelength as what 
+the 
+sensor is expecting, one can have a look at the intensity of the received light.
+ 
+ 
+3.1.3.1
+ 
+WORKING PRINCIPLE OF IR SENSOR
+ 
+IR source (transmitter) is used to emit radiation of
+ 
+a required wavelength.
+ 
+This 
+radiation reaches the object and it is reflected back. The radiation that is reflected can be 
+detected by the IR receiver. The IR Receiver which detects detected radiation is then 
+further processed based on its intensity.  IR R
+eceiver output is small and the amplifiers are 
+used to amplify the detected signal.
+ 
+ 
+Figure 6: Transmission & Reception Process of IR Sensor
+ 
+Incidences in an IR Detection System are
+ 
+either direct or indirect. In case of
+ 
+Direct 
+Incidence, no hindrance in 
+be
+tween transmitter and receiver. 
+The Transmission & 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+12
+ 
+ 
+Reception Process of IR Sensor is shown in the above Fig. 6. 
+Although in Indirect 
+Incidence IR Transmitter and Receiver are kept side by
+ 
+side and object is in front of them.
+ 
+ 
+3.1.4
+ 
+NODEMCU
+ 
+N
+ode
+MCU or
+ 
+ESP8266 
+shown in Fig. 7 
+is a low
+-
+cost, Wi
+-
+Fi Module chip that can be 
+configured to connect to the Internet
+ 
+for Internet of Things 
+(IoT) and similar Projects 
+which 
+includes Internet of Things (IoT).
+ 
+One
+ 
+
+Controlling, Monitoring, and Analysis of the projects that include Internet of Things (IoT).
+ 
+It is open source 
+IoT 
+platform. It includes a permanent memory programmed into a RAM 
+which 
+runs on the ESP8266.
+ 
+
+a permanent memory 
+programmed into a RAM
+ 
+firmware rather than the development kits by default.
+ 
+ 
+                                         
+Figure 7: NodeMCU Pin Configuration
+ 
+ 
+In this project, we are using 
+this NodeMCU Board for serial communication from 
+Arduino to NodeMCU and for transferring the data and uploading it to the Wi
+-
+Fi module to 
+know the details on the webpage application.
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+13
+ 
+ 
+ 
+3.1.5
+ 
+L
+IGHT EMITTING DIODE (L
+ED
+)
+ 
+A light
+-
+emitting diode is defined as 
+a 
+semiconductor device which emits light when 
+a current is passed through it. Light is produced when the particles that carry the current 
+(electrons or holes) combine together within the semiconductor.
+ 
+An example of LED is 
+shown in Fig. 8.
+ 
+ 
+Figure 
+8
+: LED
+ 
+ 
+3.1.6. POWER SUPPLY
+ 
+Power is supplied through Arduino at 5V.
+ 
+One can supply 
+power
+ 
+from either 
+DC
+ 
+power
+ 
+jack (7 
+-
+ 
+12V), the USB connector (5V), or the VIN pin of the board (7
+-
+12V). 
+Supplying voltage via the 5V or 3.3V pins bypasses the
+ 
+regulator, and can da
+mage the 
+board.
+ 
+ 
+3.2 WORKING
+ 
+ 
+Our prototype consists of components like Arduino UNO, NodeMCU, IR Sensors
+, 
+
+, SERVO Motor and a WEB application (Ada
+-
+fruit).  The interfacing of all the 
+Sensors and other components is done using Arduino UNO Board.  
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+14
+ 
+ 
+For 
+the present prototype we making use of 4 parking slots, in which each parking 
+slot makes use of IR Sensor to detect whether the parking slot is full or empty.
+ 
+We are making use of an LED in each slot to show whether the parking slot is empty or full 
+by mak
+ing the LED glow when the parking slot is empty, to make sure the driver does not 
+face any difficulty in searching for a vacant parking slot as shown in Fig. 
+10
+ 
+&
+ 
+Fig.1
+ 
+which 
+shows the completely empty space for parking before vehicle enter in model as wel
+l as web 
+page.
+ 
+            
+ 
+We are making use of SERVO Motor for the entry at a Tollgate. When there are 
+vacant parking spaces than the Tollgate open by detecting the car at entry using the help of 
+an IR Sensor. When the parking slots are full we make sure the Tollgate does not 
+open.
+ 
+We
+ 
+make use of NodeMCU for serial communication with the Arduino and the data present in 
+the Arduino UNO based it transferred to the NodeMCU board and with the help of the Wi
+-
+Fi module in the board the data is being displayed on the WEB Application page.
+ 
+The WEB Application displays the information about the vacancy of the parking when 
+connected with the Wi
+-
+Fi of our prototype. This web application will help the driver to 
+detect which parking slot is vacant to occupy with also makes it efficient to park th
+e 
+vehicles.
+   
+ 
+ 
+3.2.1 ALGORITHM
+ 
+ 
+Fig. 9
+ 
+depicts the algorithm for working of 
+an 
+IoT Based Parking Guidance System. 
+                
+In this System we make use of IR Sensors to detect the vehicle 
+and depending upon the 
+vacancy of
+ 
+the parking lot the toll gate either permits the vehicle to enter the parking lot if 
+there is vacancy or otherwise it does not permit the vehicle to enter if the parking lot is 
+filled. The real time status regarding the
+ 
+vacancy of the parking s
+lot is moni
+tored on
+ 
+the 
+Adafruit Web Application and b
+ased on the vacancy it guides the veh
+icle to the desired 
+vacant parking slot and it enables the driver to find a suitable parking space for his/her 
+vehicle without a
+ny sort of hassle. This 
+system is designed in su
+ch a way that it can render 
+the best possible experience to the user and 
+it 
+allows the common masses to avoid the 
+regular rush while searching for a parking space.
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+15
+ 
+ 
+ 
+                  
+ 
+IR SENSOR AT TOLL GATE
+ 
+ 
+ 
+                            
+ 
+ 
+         
+NO
+ 
+YES
+ 
+ 
+ 
+ 
+ 
+                         
+                             
+NO
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+YES
+ 
+ 
+ 
+                                        
+             
+ 
+NO
+ 
+                                                  
+                         
+ 
+ 
+ 
+ 
+ 
+ 
+YES
+ 
+ 
+ 
+                        
+                             
+ 
+NO
+ 
+                                                       
+ 
+                                                 
+                           
+ 
+ 
+ 
+ 
+ 
+YES
+ 
+ 
+ 
+                        
+                   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NO
+ 
+                                                                                
+ 
+                                                   
+                       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+YES
+ 
+ 
+ 
+Figure 9: Algorithm for working of an IoT Based Parking Guidance System
+ 
+SLOT
+ 
+1 
+FREE
+ 
+SLOT 
+2 
+FREE
+ 
+ 
+TOLL GATE     
+OPENS
+ 
+ 
+SLOT 
+3 
+FREE
+ 
+ 
+SLOT 
+4 
+FREE
+ 
+ 
+PARK
+ 
+PARK
+ 
+ 
+PARK
+ 
+ 
+PARK
+ 
+ 
+IF PARKING IS 
+FREE
+ 
+  
+WAIT
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+16
+ 
+ 
+3.3 RESULT
+S
+ 
+In this section we have shown some results based on our simulations. 
+In this 
+prototype
+,
+ 
+we have tried to address the real time 
+issues of traffic congestion one faces while 
+parking h
+is/her vehicle in a parking lot
+.
+ 
+
+Fig. 10 & 11 shows
+ 
+the status of the parking lot when all the 
+slots are vacant
+ 
+and are 
+ready to 
+be occupied
+.
+ 
+ 
+Figure 10: P
+arking space
+ 
+when all slots are free
+ 
+ 
+ 
+Figure 11
+: Parking status when all slots are free
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+17
+ 
+ 
+
+ 
+When vehicles are parked in slots 1 and 2
+, s
+lots 3 & 4 are free, 
+then the respective
+ 
+LEDs blink
+ 
+to indicate the users
+. 
+Moreover the status is shown in Adafruit Web 
+pa
+ge
+ 
+as
+ 
+shown in Fig. 12 & 13
+.
+ 
+ 
+Figure
+ 
+1
+2
+:
+  
+Slots 3 & 4 are free 
+ 
+ 
+ 
+ 
+Figure 1
+3
+:  Slots 3 & 4 are free (Adafruit Web page)
+ 
+ 
+ 
+     
+ 
+ 
+                            
+                 
+ 
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+18
+ 
+ 
+ 
+  
+            
+CHAPTER 4
+ 
+CONCLUSION
+ 
+AND FUTURE SCOPE
+ 
+    
+ 
+    
+ 
+4.1. SUMMARY
+ 
+ 
+     
+The ease of parking system is quite a challenge these days. Since the development of 
+industrialized cities, the number of cars has been increasing and day by day and the people 
+are facing bigger trouble while trying to guide their cars into a parking 
+lot. This scenario of 
+parking problems gives rise to new solutions with the help of the Internet of things (IoT) 
+thus managing car parking systems. Our paper addresses the problems of car parking across 
+a remote city and comes out with an IOT based assista
+nce application system.
+ 
+In this work, we build an IoT based smart parking system that integrates several 
+physical devices (Arduino UNO, node MCU, IR sensor, servo motor, led) to check the 
+parking slot availability. WEB application allows the user to locate
+ 
+which parking slot is 
+vacant and guide the vehicle to the vacant slot, navigation from the entrance gate to 
+
+time to search parking space. A parking space model is bu
+ilt for a single storage parking 
+slot, but this model can be extended for multi
+-
+storage parking spaces.
+ 
+ 
+ 
+4.2. APPLICATIONS
+ 
+Below are some of the applications where the working model can be implemented 
+for the use of Parking Guidance System.
+ 
+ 
+
+predict and sense the vacant car parking slot occupancy in real
+-
+time.
+ 
+ 
+
+ 
+
+ 
+technology to full advantage. 
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+19
+ 
+ 
+ 
+
+Enables intelligent decisions making using data, in
+cluding
+ 
+the real
+
+time status of the            
+parking slots.
+ 
+ 
+
+ 
+ 
+4.3 LIMITATIONS
+ 
+Although, the model works properly under normal circumstances, but it has certain 
+limit
+ations as listed below:
+ 
+
+ 
+The hardware part of the parking guidance system is implemented with Arduino which 
+has a very limited amount of RAM.
+ 
+
+ 
+As for now, our project covers a smaller span of people for an ideal case and therefore 
+Arduino is working fine here. But, shortly, our application covering a wider group of 
+people with much more complex cases will need a more stable system like Raspberry
+ 
+Pi.
+ 
+
+ 
+Handling a huge amount of data may result in a complicated scenario. But, we shall make 
+it strong shortly with a dedicated database. 
+ 
+
+ 
+The data request and data retrieval system is conducted among the application, the    
+Arduino and the database wh
+ich may make the process a bit slower.
+ 
+
+ 
+A transaction system could have been implemented with the digital transaction which at 
+present is not included.
+ 
+ 
+4.4. FUTURE SCOPE
+ 
+F
+ollowing are some of the future scopes 
+to improve the proposed IoT based 
+guidance s
+ystem.
+ 
+
+ 
+Our pro
+ject is currently an Adafruit 
+platform web application. It can be rebuilt in a multi
+-
+platform structure like mobile application so that is feasible for the people to use it on the 
+mobile phone.
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+20
+ 
+ 
+
+ 
+Someone with no prior knowledge about our parking based IoT system might be 
+interested in our application. For those people, sequential steps can be included in the 
+system so that they can use the web applicati
+on without facing any problems.
+ 
+
+ 
+By using GP
+S
+ 
+technology, user need not give their location as input. Location of the user 
+will be tracked immediately as the user connects to the Wi
+-
+Fi and get access to the 
+application.
+ 
+
+ 
+Feedback: At first we are going to take feedback from the users in quaint way.
+ 
+Live 
+conversation feature can be incorporated to the application.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ IoT Based Parking Guidance System
+ 
+ 
+[ECE/SoE
+/DSU]                                                       Page 
+21
+ 
+ 
+REFERENCES
+ 
+ 
+[1]
+ 
+Khanna, Abhirup, and Rishi Anand
+. 
+"IoT based smart parking system
+."
+ 
+2016 
+International Conference on Internet o
+f Things and Applications (IOTA
+)
+. IEEE, 2016.
+ 
+ 
+[2] 
+Zajam, Ajay, and Surekha Dholay. "
+Detecting efficient parking space using smart 
+parking
+." 
+2018 9th International Conference on Computing, Communication and 
+Networking Technologies (ICCCNT).
+ 
+IEEE, 2018.
+ 
+[3] 
+Yang, Jihoon, Jorge Portilla, and Teresa Ries
+go. "
+Smart parking service based on 
+wireless sensor networks
+." IECON 2012
+-
+38th Annual Conference on IEEE Industrial 
+Electronics Society.
+ 
+IEEE, 2012.
+ 
+[4]
+ 
+Patil, Manjusha, and Vasant N. Bhonge. "
+Wireless sensor network and RFID for smart 
+parking system
+." Int
+ernational Journal of Emerging Technology and Advanced 
+Engineering
+ 
+3.4 (2013): 188
+-
+192.
+ 
+[5] 
+Reddy, P. Dharma, A. Rajeshwar Rao, and Syed Musthak Ahmed. "
+An Intelligent 
+Parking Guidance and Information System by using image processing technique
+.
+" 
+International Journal of Advanced Research in Computer and Communication Engineering 
+2.10 (2013): 4044
+-
+4048.
+ 
+[6
+] 
+Al
+-
+Kharusi, Hilal, and Ibrahim Al
+-
+Bahadly. 
+"Intelligent parking management system 
+based on image processing.
+"
+ 
+World Journal of Engineering and 
+Technology
+ 
+2.02 (2014): 
+55.
+ 
+[7] 
+SR, Mr Basavaraju. "
+Automatic smart parking system using Internet of Things (IOT).
+" 
+International Journal of Scientific and Research Publications
+ 
+(2015): 628.
+ 

@@ -1,0 +1,585 @@
+ Assignment #8
+Due: 11:00pm on Saturday, July 20, 2013
+You will receive no credit for items you complete after the assignment is due. 
+Grading Policy
+Center of Mass and External Forces
+Learning Goal:Understand that, for many purposes, a system can be treated as a point-like particle with its mass concentrated at the center
+of mass.
+A complex system of objects, both point-like and extended ones, can often be treated as a 
+point particle
+, located at the
+system's 
+center of mass
+. Such an approach can greatly simplify problem solving.
+Before you use the center of mass approach, you should first understand the following terms:
+System: 
+Any
+ collection of objects that are of interest to you in a particular situation. In many problems, you have
+a certain freedom in choosing your system. Making a wise choice for the system is often the first step in solving
+the problem efficiently.
+Center of mass: The point that represents the "average" position of the entire mass of a system. The postion of
+the center of mass 
+ can be expressed in terms of the position vectors 
+ of the particles as
+.The x coordinate of the center of mass 
+ can be expressed in terms of the 
+x coordinates 
+ of theparticles as
+.Similarly, the 
+y coordinate of the center of mass can be expressed.
+Internal force: Any force that results from an interaction between the objects inside your system. As we will
+show, the internal forces do not affect the motion of the system's center of mass.
+External force: Any force acting on an object inside your system that results from an interaction with an object
+outside your system.
+Consider a system of two blocks that have masses 
+ and . Assume that the blocks are point-like particles and are
+located along the 
+x axis at the coordinates 
+ and  as shown 
+.In this problem, the blocks can only move along the 
+x axis.
+Part A
+r! cmr! i=r! cm!mir! i!mixcm(rx)i=xcm!(mirx)i!mim1m2x1x2 Find the x coordinate 
+ of the center of mass of the system.
+Express your answer in terms of 
+, , , and .ANSWER:
+CorrectPart B
+If , then the center of mass is located:
+ANSWER:
+CorrectPart C
+If , then the center of mass is located:
+ANSWER:
+CorrectPart D
+Recall that the blocks can only move along the 
+x axis. The 
+x components of their velocities at a certain moment are 
+and . Find the  component of the velocity of the center of mass 
+ at that moment. Keep in mind that, in
+general: 
+.xcmm1m2x1x2   = xcm+m1x1m2x2+m1m2"m2m1to the left of  at a distance much greater than 
+to the left of  at a distance much less than 
+to the right of 
+ at a distance much less than 
+to the right of 
+ at a distance much greater than 
+to the right of 
+ at a distance much less than 
+to the left of  at a distance much less than 
+m1#x2x1m1#x2x1m1#x2x1m2#x2x1m2#x2x1m2#x2x1=m2m1at at half-way between 
+ and the answer depends on 
+ and m1m2m1m2x1x2v1xv2xx(vcm)x=dx/dtvx Express your answer in terms of 
+, , , and .ANSWER:
+CorrectBecause 
+ and  are the 
+x components of the velocities of 
+ and  their values can be positive or negative
+or equal to zero.
+Part E
+Suppose that 
+ and  have equal magnitudes. Also, 
+ is directed to the right and 
+ is directed to the left. The
+velocity of the center of mass is then:
+ANSWER:
+CorrectPart F
+Assume that the 
+x components of the blocks' momenta at a certain moment are 
+ and . Find the x component of
+the velocity of the center of mass 
+ at that moment.
+Express your answer in terms of 
+, , , and .ANSWER:
+CorrectPart G
+Suppose that 
+. Which of the following must be true?
+ANSWER:
+m1m2v1xv2x   = (vcm)x+m1v1xm2v2x+m1m2v1xv2xm1m2v1xv2xv1$v2$directed to the left
+directed to the right
+zero
+the answer depends on the ratio 
+m1m2p1xp2x(vcm)xm1m2p1xp2x   = (vcm)x+p1xp2x+m1m2=0v! cm CorrectPart H
+Assume that the blocks are accelerating, and the 
+x components of their accelerations at a certain moment are 
+ and . Find the x component of the acceleration of the center of mass 
+ at that moment. Keep in mind that, in
+general, 
+.Express your answer in terms of 
+, , , and .ANSWER:
+CorrectBecause 
+ and  are the 
+x components of the velocities of 
+ and  their values can be positive or negative
+or equal to zero.
+We will now consider the effect of external and internal forces on the acceleration of the center of mass.
+Part I
+Consider the same system of two blocks. An 
+external
+ force 
+ is now acting on block 
+. No forces are applied to block 
+ as shown 
+. Find the x component of the acceleration of
+the center of mass 
+ of the system.
+Express your answer in terms of the 
+x component 
+ ofthe force, 
+,and .none of the above
+||=||p1xp2x||=||v1xv2x=m1m2a1xa2x(acm)x=d/dtaxvxm1m2a1xa2x   = (acm)x+a1xm1a2xm2+m1m2a1xa2xm1m2F! m1m2(acm)xFxm1m2 Hint 1. 
+Using Newton's laws
+Find the acceleration of each block from Newton's second law and then apply the formula for 
+ foundearlier.
+ANSWER:
+CorrectPart J
+Consider the same system of two blocks. Now, there are two forces involved. An 
+external
+ force 
+ is acting on block 
+and another 
+external
+ force 
+ is acting on block 
+. Find thex component of the acceleration of the center of mass 
+of the system.
+Express your answer in terms of the 
+x components 
+and  of the forces, 
+ and .ANSWER:
+CorrectNote that, in both cases, the acceleration of mass can be found as
+where 
+ is the net 
+external
+ force applied to the system, and 
+ is the total mass of the system. Even though
+each force is only applied to 
+one object, it affects the acceleration of the center of mass of the 
+entire system
+.This result is especially useful since it can be applied to a general case, involving 
+any number of objects moving in
+all directions and being acted upon by 
+any number of 
+external
+ forces.
+Part K
+(acm)x   = (acm)xFx+m1m2F1$m1F2$m2(acm)xF1xF2xm1m2   = (acm)x+F1xF2x+m1m2(=acm)x(Fnet)xMtotalFnetMtotal Consider the previous situation. Under what condition would the acceleration of the center of mass be zero? Keep in
+mind that 
+ and  represent 
+the components
+, of the corresponding forces.
+ANSWER:
+CorrectPart L
+Consider the same system of two blocks. Now, there are two 
+internal
+ forces involved. An 
+internal
+ force 
+ is applied to
+block 
+ by block 
+ and another 
+internal
+ force 
+ is applied to block 
+ by block 
+ . Find the x component of the
+acceleration of the center of mass 
+ of the system.
+Express your answer in terms of the 
+x components 
+ and  of the forces, 
+ and .ANSWER:
+F1xF2x=#F1xF2x=F1xF2x=m1m2%m1m2F! 12m1m2F! 21m2m1(acm)xF12xF21xm1m2 CorrectNewton's 3rd law tells you that 
+. From your answers above, you can conclude that 
+.The internal forces
+ do not change the velocity of the center of mass of the system. In the absence of any 
+external
+forces, 
+ and  is constant.
+You just demonstrated this to be the case for the two-body situation moving along the 
+x axis; however, it is true in
+more general cases as well.
+A Game of Frictionless Catch
+Chuck and Jackie stand on separate carts, both of which can slide without friction. The combined mass of Chuck and his
+cart, 
+, is identical to the combined mass of Jackie and her cart. Initially, Chuck and Jackie and their carts are at rest.
+Chuck then picks up a ball of mass 
+ and throws it to Jackie, who catches it. Assume that the ball travels in a straight
+line parallel to the ground (ignore the effect of gravity). After Chuck throws the ball, his speed relative to the ground is 
+. Thespeed of the thrown ball relative to the ground is 
+.Jackie catches the ball when it reaches her, and she and her cart begin to move. Jackie's speed relative to the ground after
+she catches the ball is 
+.When answering the questions in this problem, keep the following in mind:
+1. The original mass 
+ of Chuck and his cart does not include the mass of the ball.
+2. The speed of an object is the magnitude of its velocity. An object's speed will always be a nonnegative quantity.
+Part A
+Find the relative speed 
+ between Chuck and the ball after Chuck has thrown the ball.
+Express the speed in terms of 
+ and .Hint 1. 
+How to approach the problem
+All this question is asking is: "How fast are Chuck and the ball moving away from each other?" If two objects are
+moving at the same speed (with respect to the ground) in the same direction, their relative speed is zero. If they
+are moving at the same speed, 
+, in opposite directions, their relative speed is 
+. In this problem, you are given
+variables for the speed of Chuck and the ball with respect to the ground, and you know that Chuck and the ball
+are moving directly away from each other.
+ANSWER:
+   = (acm)x+F12xF21x+m1m2||=#||F12xF21x(=0acm)x(=0acm)x(vcm)xmcartmballvcvbvjmcartuvcvbv2v   = u+vcvb CorrectMake sure you understand this result; the concept of "relative speed" is important. In general, if two objects are
+moving in opposite directions (either toward each other or away from each other), the relative speed between them
+is equal to the sum of their speeds with respect to the ground. If two objects are moving in the same direction, then
+the relative speed between them is the absolute value of the difference of the their two speeds with respect to the
+ground.
+Part B
+What is the speed 
+ of the ball (relative to the ground) while it is in the air?
+Express your answer in terms of 
+, , and .Hint 1. 
+How to approach the problem
+Apply conservation of momentum. Equate the initial (before the ball is thrown) and final (after the ball is thrown)
+momenta of the system consisting of Chuck, his cart, and the ball. Use the result from Part A to eliminate 
+ from
+this equation and solve for 
+.Hint 2. 
+Initial momentum of Chuck, his cart, and the ball
+Before the ball is thrown, Chuck, his cart, and the ball are all at rest. Therefore, their total initial momentum is
+zero.
+Hint 3. 
+Find the final momentum of Chuck, his cart, and the thrown ball
+What is the total momentum 
+ of Chuck, his cart, and the ball after the ball is thrown?
+Express your answer in terms of 
+, , , and .Remember that 
+ and  are speeds, not velocities, and thus are positive scalars.
+ANSWER:
+ANSWER:
+CorrectPart C
+What is Chuck's speed 
+ (relative to the ground) after he throws the ball?
+Express your answer in terms of 
+, , and .vbmballmcartuvcvbpfinalmballmcartvcvbvcvb   = pfinal#+mcartvcmballvb   = vbumcart+mballmcartvcmballmcartu Hint 1. 
+How to approach the problem
+Use the answer to Part B to eliminate 
+ from the equation derived in Part A. Then solve for 
+.ANSWER:
+CorrectPart D
+Find Jackie's speed 
+ (relative to the ground) after she catches the ball, in terms of 
+.Express 
+ in terms of 
+, , and .Hint 1. 
+How to approach the problem
+Apply conservation of momentum. Equate the initial (before Jackie catches the ball) and final (after the ball is
+caught) momenta of the system consisting of Jackie, her cart, and the ball, and solve for 
+.Hint 2. 
+Initial momentum
+Just before Jackie catches the ball, the momentum of the system consisting of Jackie, her cart, and the ball is
+equal to the momentum of the ball as it flies through the air: 
+.Hint 3. 
+Find the final momentum
+What is the final momentum 
+ of the system after Jackie catches the ball?
+Express your answer in terms of 
+, , and .ANSWER:
+ANSWER:
+CorrectPart E
+Find Jackie's speed 
+ (relative to the ground) after she catches the ball, in terms of 
+.vbvc   = vcumball+mballmcartvjvbvjmballmcartvbvj=pinitialmballvbpfinalmballmcartvj   = pfinal(+)mcartmballvj   = vjmballvb+mcartmballvju Express 
+ in terms of 
+, , and .Hint 1. 
+How to approach the problem
+In Part B, you found an expression for 
+ in terms of 
+. You can substitute this expression for 
+ into theequation you found in Part D, which will give you an expression for 
+ in terms of the desired quantities.
+ANSWER:
+CorrectSurprising Exploding Firework
+A mortar fires a shell of mass 
+ at speed 
+. The shell explodes at the top of its trajectory (shown by a star in the figure) as
+designed. However, rather than creating a shower of colored flares, it breaks into just two pieces, a smaller piece of mass 
+ and a larger piece of mass 
+. Both pieces land at exactly the same time. The smaller piece lands perilously close to
+the mortar (at a distance of zero from the mortar). The larger piece lands a distance 
+ from the mortar. If there had been no
+explosion, the shell would have landed a distance 
+ from the mortar. Assume that air resistance and the mass of the shell's
+explosive charge are negligible.
+Part A
+Find the distance 
+ from the mortar at which the larger piece of the shell lands.
+Express 
+ in terms of 
+.Hint 1. 
+Find the position of the center of mass in terms of 
+The two exploded pieces of the shell land at the same time. At the moment of landing, what is the distance 
+vjmballmcartuvbuvbvj   = vjumballmcart(+)mballmcart2mv0m15m45drddrrxcm from the mortar to the center of mass of the exploded pieces?
+Express your answer in terms of 
+.Hint 1. 
+Key idea
+The explosion only exerts 
+internal
+ forces on the particles. The only 
+external
+ force acting on the two-piece
+system is gravity, so the center of mass will continue along the original trajectory of the shell.
+ANSWER:
+Hint 2. 
+Find the position of the center of mass in terms of 
+The larger piece of the shell lands a distance 
+ from the mortar, and the smaller piece lands a distance zero from
+the mortar. What is 
+, the final distance of the shell's center of mass from the mortar?
+Express your answer in terms of 
+.Hint 1. 
+A helpful figure
+Here is a figure to help you visualize the situation.
+ANSWER:
+ANSWER:
+r   = xcmrddxcmd   = xcm4d5   = dr54 CorrectA Girl on a Trampoline
+A girl of mass 
+ kilograms springs from a trampoline with an initial upward velocity of 
+ meters per second.
+At height 
+ meters above the trampoline, the girl grabs a box of mass 
+ kilograms.
+For this problem, use 
+ meters per second per second for
+the magnitude of the acceleration due to gravity.
+Part A
+What is the speed 
+ of the girl immediately before she grabs the box?
+Express your answer numerically in meters per second.
+Hint 1. 
+How to approach the problem
+Use conservation of energy. Find the initial kinetic energy 
+ of the girl as she leaves the trampoline. Then find
+her gravitational potential energy 
+ just before she grabs the box (define her initial potential energy to be
+zero). According to the principle of conservation of energy, 
+. Once you have 
+, use
+the definition of translational kinetic energy to find the girl's speed 
+.Hint 2. 
+Initial kinetic energy
+What is the girl's initial kinetic energy 
+ as she leaves the trampoline?
+Express your answer numerically in joules.
+ANSWER:
+Hint 3. 
+Potential energy at height 
+What is the girl's gravitational potential energy 
+ immediately before she grabs the box?
+=60m1=8.0
+vih=2.0
+=15m2g=9.8
+vbeforeKiUbefore=+KiUbeforeKbeforeKbeforevbeforeKi   = 1920    KiJhUbefore Express your answer numerically in joules.
+ANSWER:
+ANSWER:
+CorrectPart B
+What is the speed 
+ of the girl immediately after she grabs the box?
+Express your answer numerically in meters per second.
+Hint 1. 
+How to approach the problem
+Think of the process of grabbing the box as a collision. Though the girl and the box don't collide as such, any
+interaction between two objects that takes place extremely fast can be thought of as a collision. To find the
+velocity at a later time, which of the following principles could you use?
+ANSWER:
+Hint 2. 
+Total initial momentum
+What is the total momentum before the collision?
+Answer in kilogram meters per second.
+ANSWER:
+ANSWER:
+Correct   = 1180    UbeforeJ   = 4.98    vbeforem/svafterconservation of momentum alone
+conservation of energy alone
+both conservation of momentum and conservation of energy
+Newton's second law
+   = 299    pbeforekgm/s   = 3.98    vafterm/s Part C
+Is this "collision" elastic or inelastic?
+Hint 1. 
+Definition of an inelastic collision
+If two objects move together with the same velocity after a collision, the collision is said to be inelastic.
+ANSWER:
+CorrectIn inelastic collisions, some of the system's kinetic energy is lost. In this case the kinetic energy lost is converted to
+heat energy in the girl's muscles as she grabs the box, and sound energy.
+Part D
+What is the maximum height 
+ that the girl (with box) reaches? Measure 
+ with respect to the top of the
+trampoline.
+Express your answer numerically in meters.
+Hint 1. 
+How to approach the problem
+Use conservation of energy. From Part B you know the velocity of the girl/box system just after the girl grabs the
+box. Therefore, you can compute the kinetic energy 
+ of the girl/box system just after the collision. You can
+also compute the gravitational potential energy 
+ of the girl/box system at this point. The sum of these two
+quantities must equal the gravitational potential energy of the girl/box system at the height 
+ (where their
+velocity, and therefore kinetic energy, will be zero).
+Hint 2. 
+Finding What is the girl/box system's gravitational potential energy 
+ immediately after she grabs the box?
+Express your answer numerically in joules.
+ANSWER:
+Hint 3. 
+Finding What is the girl/box system's kinetic energy 
+ immediately after she grabs the box?
+Express your answer numerically in joules.
+elastic
+inelastic
+hmaxhmaxKafterUafterhmaxUafterUafter   = 1470    UafterJKafterKafter ANSWER:
+ANSWER:
+Correct± A Rocket in Deep Space
+A rocket is fired in deep space, where gravity is negligible. In the first second it ejects 
+ of its mass as exhaust gas and
+has an acceleration of 
+14.9 .Part A
+What is the speed 
+ of the exhaust gas relative to the rocket?
+Express your answer numerically in kilometers per second.
+Hint 1. 
+How to approach the problem
+In deep space gravity is negligible and there is no air resistance; thus no external forces act on the rocket and the
+exhaust gas, and the total momentum of the system (rocket plus exhaust gas) is conserved. By applying
+conservation of momentum, one can derive a formula for the acceleration of the rocket given the speed of the
+exhaust gas relative to the rocket, the original mass of the rocket, and the rate of change of the rocket's mass
+with time.
+Hint 2. 
+The acceleration of the rocket
+By applying conservation of momentum to the system that comprises the rocket and the exhaust gas, one can
+derive a formula for the acceleration of the rocket 
+ in terms of the speed 
+ of the exhaust gas relative to the
+rocket and the mass of the rocket 
+. In symbols,
+,where 
+ represents time. The quantity 
+ is the time rate of change of the mass of the rocket, and it is a negative
+quantity (the mass of the rocket decreases continuously with time as it burns fuel). Since 
+ is a positive
+quantity (it is the 
+speed
+ of the exhaust gas), the acceleration of the rocket is also positive.
+(Another way to derive the formula above, is to apply the relationship 
+ to the exhaust gas and note that
+the force on the rocket is equal and opposite to the force on the exhaust.)
+Hint 3. 
+Find the change in mass of the rocket
+   = 594    KafterJ   = 2.81    hmaxm1160m/s2vgasavgasma=#vgasmdmdttdmdtvgas=F! dp! dt What is the rate of change of the mass of the rocket if 
+ is its original mass before the launch?
+ANSWER:
+ANSWER:
+CorrectA message from your instructor...
+Note: The problem numbers do not correspond to the end-of-chapter problems in the textbook (Knight). These problems are
+taken from a database provided by the publisher.
+Problem 8.24
+Two ice skaters, Daniel (mass 
+65.0 kg)
+ and Rebecca (mass 
+45.0 kg),
+ are practicing. Daniel stops to tie his shoelace and,
+while at rest, is struck by Rebecca, who is moving at 
+13.0 m/s
+ before she collides with him. After the collision, Rebecca has a
+velocity of magnitude 
+8.00 m/s
+ at an angle of  from her initial direction. Both skaters move on the frictionless, horizontal
+surface of the rink.
+Part A
+What is the magnitude of Daniel's velocity after the collision?
+ANSWER:
+CorrectPart B
+What is the direction of Daniel's velocity after the collision?
+ANSWER:
+m   #160mm160m#m160#m160   = 2.38    vgaskm/s53.1
+&7.198 m/s 
+ CorrectPart C
+What is the change in total kinetic energy of the two skaters as a result of the collision?
+ANSWER:
+CorrectProblem 8.46
+A 1200-kg
+ station wagon is moving along a straight highway at 
+12.0 m/s.
+ Another car, with mass 
+1800 kg
+ and speed
+20.0 m/s,
+ has its center of mass 
+40.0 m ahead of the center of mass of the station wagon 
+.Part A
+Find the position of the center of mass of the system consisting of the two automobiles.
+ANSWER:
+Correct-37.97
+   from the Rebecca's original direction 
+&-678
+ J 
+16.0 m behind the leading car 
+ Part B
+Find the magnitude of the total momentum of the system from the above data.
+ANSWER:
+CorrectPart C
+Find the speed of the center of mass of the system.
+ANSWER:
+CorrectPart D
+Find the total momentum of the system, using the speed of the center of mass.
+ANSWER:
+CorrectProblem 8.54
+A rocket is fired in deep space, where gravity is negligible. In the first second it ejects 
+ of its mass as exhaust gas and
+has an acceleration of 
+14.9 .Part A
+What is the speed of the exhaust gas relative to the rocket?
+ANSWER:
+Correct5.04!104    kg'm/s16.8 m/s 
+5.04!104    kg'm/s1160m/s22.38 km/s 
+ Problem 8.56
+A single-stage
+ rocket is fired from rest from a 
+deep-space
+ platform, where gravity is negligible.
+Part A
+If the rocket burns its fuel in a time of 
+50.0 s and the relative speed of the exhaust gas is 
+, what must
+the mass ratio 
+ be for a final speed 
+ of 8.00 km/s
+ (about equal to the orbital speed of an earth satellite)?
+ANSWER:
+CorrectProblem 8.65
+A railroad handcar is moving along straight, frictionless tracks with negligible air resistance. In the following cases, the car
+initially has a total mass (car and contents) of 170
+ and is traveling east with a velocity of magnitude 4.80
+ . Find thefinal velocity
+ of the car in each case, assuming that the handcar does not leave the tracks.
+Part A
+An object with a mass of 22.0
+ is thrown sideways out of the car with a speed of 2.30
+ relative to the car's initial
+velocity.
+ANSWER:
+CorrectPart B
+An object with a mass of 22.0
+ is thrown backward out of the car with a velocity of 4.80
+ relative to the initial motion
+of the car.
+ANSWER:
+CorrectPart C
+=2100m/svex/mm0v45.1kgm/skgm/s4.80 m/s east 
+kgm/s5.51 m/s east 
+kgm/s An object with a mass of 22.0
+ is thrown into the car with a velocity of 6.00
+ relative to the ground and opposite in
+direction to the initial velocity of the car.
+ANSWER:
+CorrectScore Summary:
+Your score on this assignment is 98.6%.
+You received 98.59 out of a possible total of 100 points.
+kgm/s3.56 m/s east 
